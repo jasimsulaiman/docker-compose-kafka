@@ -36,7 +36,7 @@ The Kafka brokers are on different external ports because I'd like to have them 
 1. Create the Kafka replication controllers
 
   ```sh
-  $ kubectl create -f deploy/k8s/kafka.yml
+  $ kubectl create -f kubernetes/kafka.yml
   ...
   ```
 
